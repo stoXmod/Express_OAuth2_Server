@@ -1,6 +1,6 @@
 {
     "name": "oauthserver2",
-    "version": "0.0.0",
+    "version": "16.x",
     "private": true,
     "scripts": {
         "start": "node ./bin/www"
@@ -11,14 +11,15 @@
         "cors": "^2.8.5",
         "crypto": "^1.0.1",
         "debug": "~2.6.9",
+        "dotenv": "^16.0.3",
         "express": "~4.16.1",
         "express-oauth-server": "^2.0.0",
         "express-session": "^1.16.2",
         "hbs": "~4.0.4",
-        "http-errors": "^1.6.3",
+        "http-errors": "^2.0.0",
         "mongoose": "^5.7.5",
         "morgan": "~1.9.1",
-        "node-sass-middleware": "0.11.0",
+        "node-sass-middleware": "^1.0.1",
         "oauth2-server": "^3.0.1"
     }
 }
